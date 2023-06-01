@@ -9,7 +9,9 @@
 
 <style>
     h1{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: .7rem;
     color: white;
     font-size: 3rem;
     }
@@ -24,6 +26,8 @@
 <body>
 
     <h1>Hello World</h1>
+
+    @include('partials.header')
 
 
 
